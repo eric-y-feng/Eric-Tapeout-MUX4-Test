@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     404878308512667649       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "eric_test_tapeout"      # Project title
+  wokwi_id:     405102960550963201       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "eric_mux4_test"      # Project title
   author:       "Eric Feng"      # Your name
   discord:      "ericfeng"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Test tapeout project"      # One line description of what your project does
+  description:  "Test MUX4"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,22 +14,22 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "x"
-  ui[1]: "x"
-  ui[2]: "x"
-  ui[3]: "x"
-  ui[4]: ""
-  ui[5]: ""
+  ui[0]: "in0"
+  ui[1]: "in1"
+  ui[2]: "in2"
+  ui[3]: "in3"
+  ui[4]: "in4"
+  ui[5]: "in5"
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "x"
-  uo[1]: "x"
-  uo[2]: "x"
-  uo[3]: "x"
-  uo[4]: ""
-  uo[5]: ""
+  uo[0]: "out0"
+  uo[1]: "out1"
+  uo[2]: "out2"
+  uo[3]: "out3"
+  uo[4]: "out4"
+  uo[5]: "out5"
   uo[6]: ""
   uo[7]: ""
 
