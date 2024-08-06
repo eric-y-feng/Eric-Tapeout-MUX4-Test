@@ -59,7 +59,8 @@ Testing:
 
 ## External hardware
 
-- TinyTapeout FPGA demoboard, USB-A to USB-C cable
+- TinyTapeout FPGA demoboard
+- USB-A to USB-C cable
 
 ## Todo/Current issues
 
